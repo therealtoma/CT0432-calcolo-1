@@ -76,6 +76,7 @@ E' necessario controllare
 2. Che cosa succede nel caso in cui numeratore o denominatore diventano negativi
 
 E' per questo motivo che devo creare i sistemi
+
 $$
 \begin{cases}
     f(x) > 0 \\
@@ -87,6 +88,7 @@ $$
     g(x) < 0
 \end{cases}
 $$
+
 # Funzioni Trigonometriche
 ## seno e coseno
 Data una circonferenza gonoiometrica $\gamma$ (centro nell'origine e raggio 1), qualsiasi angolo $\alpha$ (si inizia a misurare da $x$ positivo e si gira in senso antiorario) interseca la circonferenza $\gamma$ nel punto $P(\cos(\alpha), \sin(\alpha))$.
