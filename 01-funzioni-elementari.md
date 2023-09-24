@@ -64,3 +64,27 @@ $$
 - $log_a(\alpha \cdot \beta) = log_a(\alpha) + \log_a(\beta)$
 - $log_a(\frac{\alpha}{\beta}) = log_a(\alpha) - log_a(\beta)$
 - $log_a(\alpha^\beta) = \beta log_a(\alpha)$
+
+# Funzioni Trigonometriche
+## seno e coseno
+Data una circonferenza gonoiometrica $\gamma$ (centro nell'origine e raggio 1), qualsiasi angolo $\alpha$ (si inizia a misurare da $x$ positivo e si gira in senso antiorario) interseca la circonferenza $\gamma$ nel punto $P(\cos(\alpha), \sin(\alpha))$.
+### proprietà seno e coseno
+- dalla definizione $-1 \le cos(\alpha) \le 1, -1 \le cos(\alpha) \le 1$
+- per il teorema di Pitagora $cos(\alpha)^2 + sin(\alpha)^2 = 1$
+- seno e coseno sono periodici di periodo $2\pi$
+- simmetrie $cos(-\alpha) = cos(\alpha), sin(-\alpha) = -sin(\alpha)$
+- somma seno: $sin(\alpha + \beta) = sin(\alpha)cos(\beta) + cos(\alpha)sin(\beta)$
+- somma coseno: $cos(\alpha + \beta) = cos(\alpha)cos(\beta) - sin(\alpha)sin(\beta)$
+
+## tangente
+Rappresente il punto di intersezione tra la retta passante per l'origine e la retta $x=1$
+$$
+tan(\alpha) = \frac{sin(\alpha)}{cos(\alpha)}
+$$
+
+## dominio e immagine
+$$
+D= \mathbb{R} - {\frac{\pi}{2}+k\pi}, \quad I = \mathbb{R}
+$$
+
+Il dominio è l'insieme dei reali tranne il punto $\frac{\pi}{2}$ che rappresenta la retta verticale.
