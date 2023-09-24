@@ -48,3 +48,19 @@ $$
 - $a^{xb} = (a^b)^x$
 - $a^{-x} = \frac{1}{a^x}$
 
+# Funzione Logaritmo
+è la funzione inversa della funzione esponenziale.
+
+## Dominio e Immagine
+$$
+D = ]0;+\infty[, \quad I = \mathbb{R}
+$$
+
+## Proprietà
+- se $a > 1$ la funzione è crescente
+- se $0 < a < 1$ la funzione è decrescente
+- $log_a(1) = 0$
+- $log_a(1) = 1$
+- $log_a(\alpha \cdot \beta) = log_a(\alpha) + \log_a(\beta)$
+- $log_a(\frac{\alpha}{\beta}) = log_a(\alpha) - log_a(\beta)$
+- $log_a(\alpha^\beta) = \beta log_a(\alpha)$
