@@ -65,6 +65,28 @@ $$
 - $log_a(\frac{\alpha}{\beta}) = log_a(\alpha) - log_a(\beta)$
 - $log_a(\alpha^\beta) = \beta log_a(\alpha)$
 
+### consigli esercizi
+#### creare sistema da una disequazione con logaritmi
+Nel momento in cui sto svolgendo una disequazione con i logaritmi dobbiamo assicurarci che il logaritmo sia definito (argomento $>0$). Per fare ciò devo creare un sistema di disequazioni nelle quali controllo che cosa succede anche nel caso negativo.
+
+Supponiamo di avere una disequazione del tipo $log(\frac{f(x)}{g(x)}) > 0$
+
+E' necessario controllare
+1. Gli argomenti del logaritmo sono positivi
+2. Che cosa succede nel caso in cui numeratore o denominatore diventano negativi
+
+E' per questo motivo che devo creare i sistemi
+$$
+\begin{cases}
+    f(x) > 0 \\
+    g(x) > 0
+\end{cases}, 
+\quad
+\begin{cases}
+    f(x) < 0 \\
+    g(x) < 0
+\end{cases}
+$$
 # Funzioni Trigonometriche
 ## seno e coseno
 Data una circonferenza gonoiometrica $\gamma$ (centro nell'origine e raggio 1), qualsiasi angolo $\alpha$ (si inizia a misurare da $x$ positivo e si gira in senso antiorario) interseca la circonferenza $\gamma$ nel punto $P(\cos(\alpha), \sin(\alpha))$.
