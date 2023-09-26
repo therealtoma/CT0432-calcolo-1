@@ -21,3 +21,9 @@ se $lim_{x \to x_0} f(x) = l$ allora deve valere:
 $$
 lim_{x \to x_0^-} f(x) = l \qquad \land \qquad lim_{x \to x_0^+} f(x) = l
 $$
+
+## teorema confronto (carabinieri)
+Se $f(x) \le g(x) \le h(x)$ allora, il teorema di carabinieri garantisce che:
+- se $lim_{x \to x_0} f(x) = l$ e $lim_{x \to x_0} h(x) = l$ allora vale $lim_{x \to x_0} g(x) = l$
+- se $lim_{x \to x_0} f(x) = + \infty$ allora $lim_{x \to x_0} g(x) = + \infty$
+- se $lim_{x \to x_0} h(x) = - \infty$ allora $lim_{x \to x_0} g(x) = -\infty$
