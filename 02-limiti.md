@@ -27,3 +27,20 @@ Se $f(x) \le g(x) \le h(x)$ allora, il teorema di carabinieri garantisce che:
 - se $lim_{x \to x_0} f(x) = l$ e $lim_{x \to x_0} h(x) = l$ allora vale $lim_{x \to x_0} g(x) = l$
 - se $lim_{x \to x_0} f(x) = + \infty$ allora $lim_{x \to x_0} g(x) = + \infty$
 - se $lim_{x \to x_0} h(x) = - \infty$ allora $lim_{x \to x_0} g(x) = -\infty$
+
+## algebrea dei limiti
+### limite della somma
+Se $lim_{x \to x_0} f(x) = l \in \mathbb{R}$ e $lim_{x \to x_0} g(x) = m \in \mathbb{R}$ allora vale 
+$$
+lim_{x \to x_0} (f(x) + g(x)) = l + m
+$$
+Più in generale:
+
+|                    | $m \in \mathbb{R}$ | $m = +\infty$ | $m = -\infty$ |
+| :----------------: | :----------------: | :-----------: | :-----------: |
+| $l \in \mathbb{R}$ | $l+m$              | $l = +\infty$ | $l = -\infty$ |
+| $l = +\infty$      | $l = +\infty$      | $l = -\infty$ | $f.i.$        |
+| $l = -\infty$      | $l = -\infty$      | $f.i.$        | $l = -\infty$ |
+
+### limite del prodotto
+### limite del quoziente
