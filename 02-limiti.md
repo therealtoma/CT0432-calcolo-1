@@ -31,9 +31,11 @@ Se $f(x) \le g(x) \le h(x)$ allora, il teorema di carabinieri garantisce che:
 ## algebrea dei limiti
 ### limite della somma
 Se $lim_{x \to x_0} f(x) = l \in \mathbb{R}$ e $lim_{x \to x_0} g(x) = m \in \mathbb{R}$ allora vale 
+
 $$
 lim_{x \to x_0} (f(x) + g(x)) = l + m
 $$
+
 Più in generale:
 
 |                    | $m \in \mathbb{R}$ | $m = +\infty$ | $m = -\infty$ |
