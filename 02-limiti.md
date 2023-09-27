@@ -79,3 +79,17 @@ $$
 | $l = +\infty$ | $-\infty$     | $\pm \infty$  | $+\infty$   | $f.i.$        | $f.i.$         |
 | $l = -\infty$ | $+\infty$     | $\mp \infty$  | $-\infty$   | $f.i.$        | $f.i.$         |
 
+# Funzioni continue
+
+## definizione
+Sia la funzione $f: A \subset \mathbb{R} \to \mathbb{R}$
+- se $x_0$ è un **punto di accumulazione** per $A$ allora diremo che $f$ è **continua** in $x_0$
+- se $x_0 \in A$ è un punto isolato di $A$, allora $f$ è continua anche in $x_0$
+- diremo che $f$ è **continua** se è continua in ogni punto del suo dominio
+
+## operazioni tra funzioni continue
+Date due funzioni $f, g: A \to \mathbb{R}$, allora
+- $h = f + g$ è continua
+- $h = f \cdot g$ è continua
+- $h = \frac{f}{g}$ è continua
+- $g = |f|$ è continua
