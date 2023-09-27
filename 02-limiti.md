@@ -6,9 +6,11 @@ $$
 
 ### teorema dell'unicità del limite
 Se $l_1$ e $l_2$ con $l_1, l_2 \in \mathbb{R}$
+
 $$
 lim_{x \to x_0} f(x) = l_1 \quad \land \quad lim_{x \to x_0} f(x) = l_2
 $$
+
 allora deve essere $l_1 = l_2$ cioè il limite è **unico**.
 
 ### limiti infiniti
@@ -18,6 +20,7 @@ allora deve essere $l_1 = l_2$ cioè il limite è **unico**.
 
 ### limite destro e sinistro
 se $lim_{x \to x_0} f(x) = l$ allora deve valere:
+
 $$
 lim_{x \to x_0^-} f(x) = l \qquad \land \qquad lim_{x \to x_0^+} f(x) = l
 $$
