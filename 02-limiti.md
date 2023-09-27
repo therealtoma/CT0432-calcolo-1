@@ -62,3 +62,17 @@ Più in generale:
 | $l = -\infty$ | $+\infty$   | $f.i.$  | $-\infty$   | $-\infty$     | $+\infty$      |
 
 ### limite del quoziente
+Se $lim_{x \to x_0} f(x) = l \in \mathbb{R}$ allora vale:
+
+$$
+lim_{x \to x_0} \frac{1}{f(x)} = \frac{1}{l}
+$$
+
+|               | $m < 0$       | $m = 0^\pm$   | $m > 0$     | $m = +\infty$ | $m = - \infty$ |
+| :-----------: | :-----------: | :-----------: | :---------: | :-----------: | :------------: |
+| $l < 0$       | $l / m$       | $\pm \infty$  | $l / m$     | $0$           | $0$            |
+| $l = 0$       | $0$           | $f.i.$        | $0$         | $0$           | $0$            |
+| $l > 0$       | $l / m$       | $\pm \infty$  | $l / m$     | $0$           | $0$            |
+| $l = +\infty$ | $-\infty$     | $\pm \infty$  | $+\infty$   | $f.i.$        | $f.i.$         |
+| $l = -\infty$ | $+\infty$     | $\pm \infty$  | $-\infty$   | $f.i.$        | $f.i.$         |
+
