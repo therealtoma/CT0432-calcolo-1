@@ -93,3 +93,46 @@ Date due funzioni $f, g: A \to \mathbb{R}$, allora
 - $h = f \cdot g$ è continua
 - $h = \frac{f}{g}$ è continua
 - $g = |f|$ è continua
+
+## limiti importanti delle funzioni elementari
+
+$$
+
+lim_{x \to x_0} x^a =
+\begin{cases}
+0 & \text{se} \ a > 0 \\
++\infty & \text{se} \ a < 0
+\end{cases}
+
+\qquad
+
+lim_{x\to +\infty} x^a=
+\begin{cases}
++\infty & \text{se} \ a > 0 \\
+0 & \text{se} \ a < 0
+\end{cases}
+
+\\
+
+lim_{x \to -\infty} x^n =
+\begin{cases}
++\infty & \text{se} \ n \ \text{pari} \\
+0 & \text{s} 0 < a < 1
+\end{cases}
+
+\qquad
+
+lim_{x \to 0^-} \frac{1}{x^n} =
+\begin{cases}
++\infty & \text{se} \ n \ \text{pari} \\
+-\infty & \text{se} \ n \ \text{dispari}
+\end{cases}
+
+\\
+
+lim_{x \to +\infty} a^x =
+\begin{cases}
+-\infty & \text{se} a > 1 \\
+0 & \text{se} 0 < a < 1
+\end{cases}
+$$
