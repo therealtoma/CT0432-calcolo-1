@@ -77,5 +77,5 @@ $$
 | $l = 0$       | $0$           | $f.i.$        | $0$         | $0$           | $0$            |
 | $l > 0$       | $l / m$       | $\pm \infty$  | $l / m$     | $0$           | $0$            |
 | $l = +\infty$ | $-\infty$     | $\pm \infty$  | $+\infty$   | $f.i.$        | $f.i.$         |
-| $l = -\infty$ | $+\infty$     | $\pm \infty$  | $-\infty$   | $f.i.$        | $f.i.$         |
+| $l = -\infty$ | $+\infty$     | $\mp \infty$  | $-\infty$   | $f.i.$        | $f.i.$         |
 
