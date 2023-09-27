@@ -45,4 +45,20 @@ Più in generale:
 | $l = -\infty$      | $l = -\infty$      | $f.i.$        | $l = -\infty$ |
 
 ### limite del prodotto
+Se $lim_{x \to x_0} f(x) = l \in \mathbb{R}$ e $lim_{x \to} g(x) = m \in \mathbb{R}$ allora vale
+
+$$
+lim_{x \to x_0} (f(x) \cdot g(x)) = l \cdot m
+$$
+
+Più in generale:
+
+|               | $m < 0$     | $m = 0$ | $m > 0$     | $m = +\infty$ | $m = - \infty$ |
+| :-----------: | :---------: | :-----: | :---------: | :-----------: | :------------: |
+| $l < 0$       | $l \cdot m$ | $0$     | $l \cdot m$ | $-\infty$     | $+\infty$      |
+| $l = 0$       | $0$         | $0$     | $0$         | $f.i.$        | $f.i.$         |
+| $l > 0$       | $l \cdot m$ | $0$     | $l \cdot m$ | $+\infty$     | $-\infty$      |
+| $l = +\infty$ | $-\infty$   | $f.i.$  | $+\infty$   | $+\infty$     | $-\infty$      |
+| $l = -\infty$ | $+\infty$   | $f.i.$  | $-\infty$   | $-\infty$     | $+\infty$      |
+
 ### limite del quoziente
