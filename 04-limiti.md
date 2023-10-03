@@ -13,5 +13,6 @@ $$
 Data $f(x) = \frac{x^2-1}{x-1}$ vogliamo verificare che $\lim_{x \to 1}f(x)=2$
 *sol:* dato $\epsilon$ dobbiamo dimostrare che esiste $\delta$
 $$
-|f(x)-2| < \epsilon \iff |\frac{x^2-1}{x-1}-2| < \epsilon \iff |x+1-2| < \epsilon
+|x-1| < \delta \implies |f(x)-2| < \epsilon \iff |\frac{x^2-1}{x-1}-2| < \epsilon \iff |x+1-2| < \epsilon
 $$
+dunque sarà sufficiente porre $\delta = \epsilon$
