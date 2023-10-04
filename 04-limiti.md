@@ -1,8 +1,10 @@
 # Limiti
-Data una funzione $f: A\sub\mathbb{R}$ e sia $x_0 \in \mathbb{R}$ un punto di accumulazione di $A$. Diremo che $l \in \mathbb{R}$ è il limit per $x$ tendente a $x_0$ se è possibile trovare un intorno $I_{x_0}$ tale che i valori della funzione calcolati nel'intorno $I_{x_0}$ cadono nell'intorno $U_l$
+Data una funzione $f: A \subseteq \mathbb{R}$ e sia $x_0 \in \mathbb{R}$ un punto di accumulazione di $A$. Diremo che $l \in \mathbb{R}$ è il limit per $x$ tendente a $x_0$ se è possibile trovare un intorno $I_{x_0}$ tale che i valori della funzione calcolati nel'intorno $I_{x_0}$ cadono nell'intorno $U_l$
+
 $$
 \lim_{x\to x_0}f(x) = l
 $$
+
 ### teorema dell'unicità del limite
 Se $l_1$ e $l_2$ con $l_1, l_2 \in \mathbb{R}$
 
@@ -94,50 +96,47 @@ Date due funzioni $f, g: A \to \mathbb{R}$, allora
 - $g = |f|$ è continua
 
 ## limiti importanti delle funzioni elementari
-
+$$
+\lim_{x \to x_0} x^a =
+\begin{cases}
+  0 & \text{se} \ a > 0 \\
+  +\infty & \text{se} \ a < 0
+\end{cases}
 $$
 
-lim_{x \to x_0} x^a =
+$$
+\lim_{x \to -\infty} x^n =
 \begin{cases}
-0 & \text{se} \ a > 0 \\
-+\infty & \text{se} \ a < 0
-\end{cases}
-
-\qquad
-
-lim_{x\to +\infty} x^a=
-\begin{cases}
-+\infty & \text{se} \ a > 0 \\
-0 & \text{se} \ a < 0
-\end{cases}
-
-\\
-
-lim_{x \to -\infty} x^n =
-\begin{cases}
-+\infty & \text{se} \ n \ \text{pari} \\
++\infty & \text{se} n \text{pari}
 0 & \text{s} 0 < a < 1
 \end{cases}
+$$
 
-\qquad
-
-lim_{x \to 0^-} \frac{1}{x^n} =
+$$
+\lim_{x \to 0^-} \frac{1}{x^n} =
 \begin{cases}
-+\infty & \text{se} \ n \ \text{pari} \\
--\infty & \text{se} \ n \ \text{dispari}
++\infty & \text{se} n \text{pari}
+-\infty & \text{se} n \text{dispari}
 \end{cases}
+$$
 
-\\
-
-lim_{x \to +\infty} a^x =
+$$
+\lim_{x \to +\infty} a^x =
 \begin{cases}
--\infty & \text{se} a > 1 \\
+-\infty & \text{se} a > 1
 0 & \text{se} 0 < a < 1
 \end{cases}
 $$
 
+$$
+\lim_{x\to +\infty} x^a=
+\begin{cases}
+  +\infty & \text{se} \ a > 0 \\
+  0 & \text{se} \ a < 0
+\end{cases}
+$$
 
-## definizione ($\epsilon - \delta$)
+## definizione
 $$
 |x-x_0| < \delta \qquad \text{da cui otteniamo} \qquad |f(x) - l| < \epsilon
 $$
@@ -154,7 +153,7 @@ sia $\lim_{x\to-2}x^2=4$ i passaggi sono:
 
 
 ## limiti infiniti
-quando abbiamo limiti per $x \to \pm \infin$ non possiamo verificare tramite $\epsilon - \delta$ ma dobbiamo considerare intorno di $\pm \infty$
+quando abbiamo limiti per $x \to \pm \infty$ non possiamo verificare tramite $\epsilon - \delta$ ma dobbiamo considerare intorno di $\pm \infty$
 
 #### procedura
 sia $\lim_{x \to +\infty}\frac{x+1}{x}=1$ i passaggi sono:
