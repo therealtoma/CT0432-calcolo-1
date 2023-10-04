@@ -193,3 +193,10 @@ Se $f$ è una funzione continua in un insieme $A$ chiuso e limitato, allora assu
   $$
   f(d) = \min_{x \in A} f(x)
   $$
+
+## limiti notevoli
+#### tipi di forme indeterminate
+- $[\infty - \infty], \ [0 \cdot \infty], \ [\frac{\infty}{\infty}], \ [\frac{0}{0}]$
+- $1^\infty$
+- $[0^0]$
+- $[\infty^0]$
