@@ -9,10 +9,13 @@ $$
 |x-x_0| < \delta \qquad \text{da cui otteniamo} \qquad |f(x) - l| < \epsilon
 $$
 
-**esempio**
-Data $f(x) = \frac{x^2-1}{x-1}$ vogliamo verificare che $\lim_{x \to 1}f(x)=2$
-*sol:* dato $\epsilon$ dobbiamo dimostrare che esiste $\delta$
-$$
-|x-1| < \delta \implies |f(x)-2| < \epsilon \iff |\frac{x^2-1}{x-1}-2| < \epsilon \iff |x+1-2| < \epsilon
-$$
-dunque sarà sufficiente porre $\delta = \epsilon$
+#### procedura
+tramite un esempio:
+sia $\lim_{x\to-2}x^2=4$ i passaggi sono:
+- trovare $|x^2 -4| < \epsilon$
+- per la proprietà del valore assoluto abbiamo $-\epsilon < |x^2-4| < \epsilon$
+- isolando la $x$ otteniamo $\sqrt{4-\epsilon} < x < \sqrt{4+\epsilon}$
+- a questo punto ci interessa trovare $|x-2| < \delta$
+- sottraiamo $2$ ai due membri $\sqrt{4-\epsilon}-2 < x-2 < \sqrt{4+\epsilon}-2$
+- ricomponiamo il valore assoluto e troviamo la soluzione $|x-2| < \sqrt{4-\epsilon} -2$
+
