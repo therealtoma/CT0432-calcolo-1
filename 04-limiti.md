@@ -158,3 +158,20 @@ quando abbiamo limiti per $x \to \pm \infty$ non possiamo verificare tramite $\e
 #### procedura
 sia $\lim_{x \to +\infty}\frac{x+1}{x}=1$ i passaggi sono:
 - dobbiamo trovare $M$
+
+
+## limiti notevoli
+
+#### funzione continua
+- se $x_0 \in A$ è un **punto di accumulazione** di $A$ diremo che $f$ è **continua** in $x_0$
+- se $x_0 \in A$ è un **punto isolato** di $A$ allora $f$ è continua anche in $x_0$
+- $f$ è **continua** se + continua in ogni punto del suo dominio
+
+##### alcune proprietà
+date due funzioni continue $f,g : A \rarr \mathbb{R}$ allora
+- $h = f + g$ è continua
+- $h = f \cdot g$ è continua
+- $h = \frac{f}{g}$ è continua
+- $h = |f|$ è continua
+- se una funzione è **monotona** (sempre crescente o sempre decrescente) allora la sua **inversa** è continua
+- Le funzioni **elementari** $y=x^a, y=a^x, y=\log_{a}x, sin(x), cos(x), tan(x)$ sono **continue**
