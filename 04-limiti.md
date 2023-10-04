@@ -175,3 +175,21 @@ date due funzioni continue $f,g : A \rarr \mathbb{R}$ allora
 - $h = |f|$ è continua
 - se una funzione è **monotona** (sempre crescente o sempre decrescente) allora la sua **inversa** è continua
 - Le funzioni **elementari** $y=x^a, y=a^x, y=\log_{a}x, sin(x), cos(x), tan(x)$ sono **continue**
+
+## teoremi fondamentali
+### teorema degli zeri
+Siano $a < b$ e $f \ : \ [a;b] \rarr \mathbb{R}$ una funzione *continua* tale che $f(a) \cdot f(b) < 0$, cioè tale che $f(a)$ e $f(b)$ abbiano segno opposto. Allora esiste almeno un punto $c \in [a;b]$ tale che $f(c) = 0$
+
+### teorema dei valori intermedi
+Sia $f \ : \ [a;b] \rarr \mathbb{R}$ una funzione *continua*. Allora l'immagine $Imf$ è un **intervallo** e $f$ assume tutti i valori all'interno di quell'intervallo.
+
+### teorema di Weierstrass
+Se $f$ è una funzione continua in un insieme $A$ chiuso e limitato, allora assume massimo e minimo in $A$, ovvero, esistono un punto $c$ e un punto $d$ di $A$ tali che:
+- $f(c)$ sia il massimo dell'immagine di $f$:
+  $$
+  f(c) = \max_{x \in A} f(x)
+  $$
+- $f(d)$ sia il minimo dell'immagine di $f$:
+  $$
+  f(d) = \min_{x \in A} f(x)
+  $$
