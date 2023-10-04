@@ -200,3 +200,8 @@ Se $f$ è una funzione continua in un insieme $A$ chiuso e limitato, allora assu
 - $1^\infty$
 - $[0^0]$
 - $[\infty^0]$
+
+#### limiti notevoli
+- $\lim_{x \to 0} \frac{\sin(x)}{x} = 1$: prestare attenzionec he $x$ sia in *radianti* e $x \to 0$ e **NON** $x \to \infty$
+- $\lim_{x \to \pm \infty}(1+\frac{1}{x})^x = e$: $e$ corrisponde al numero di **Neplero** e vale $e \approx 2.71828$
+- $\lim_{x \to + \infty}\frac{log (x)}{x} = 0$
