@@ -64,3 +64,10 @@ $$
 | $a^x$      | $log(a) \cdot a^x$  | $\mathbb{R}$    |
 | $log(x)$   | $\frac{1}{x}$       | $x > 0$         |
 | $log_a(x)$ | $\frac{1}{xlog(a)}$ | $x > 0$         |
+
+## algebra delle derivate
+date due funzioni $f$ e $g$ derivabili in $x_0$, allora:
+- $f+g$ è derivabile in $x_0$: $D(f+g)(x_0) = f'(x_0) + g'(x_0)$
+- $f \cdot g$ è derivabile in $x_0$: $D(f \cdot g)(x_0) = f'(x_0)g(x_0)+f(x_0)g'(x_0)$
+- $\frac{f}{g}$ con $g(x_0) \not = 0$ è derivabile in $x_0$: $D(\frac{f}{g})(x_0) = \frac{f'(x_0)g(x_0)- f(x_0)g'(x_0)}{g^2(x_0)}$
+- $D(\alpha f + \beta g)(x_0)=f'(g(x_0)) \cdot g'(x_0)$
