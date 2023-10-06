@@ -120,3 +120,29 @@ $$
 $$
 
 (la stessa procedura è valida per $x \to -\infty$)
+
+## teoremi fondamentali per le funzioni derivabili in un intervallo
+## teorema di Lagrange
+sia $f: [a, b] \rarr \mathbb{R}$ una funzione continua in $[a,b]$ e derivabile ib $]a,b[$ allora esiste un punto $c \in ]a,b[$ tale che:
+
+$$
+f'(c) = \frac{f(b) - f(a)}{b - a}
+$$
+
+## teorema di Rolle
+sia $f: [a, b] \rarr \mathbb{R}$ una funzione continua in $[a,b]$ e derivabile ib $]a,b[$ tale che $f(a) = f(b)$ allora esiste un punto $c \in ]a,b[$ tale che: $f'(c) = 0$
+questo teorema è una conseguenza diretta del *teorema di Lagrange*
+
+## teorema di de l'Hôpital
+siano $f$ e $g$ definite e derivabili, allora:
+- se $\lim_{x \to x_0}f(x) = \lim_{x \to x_0} = 0$ e se $\lim_{x\to x_0}\frac{f'(x)}{g'(x)} = l$ allora:
+
+$$
+\lim_{x \to x_0}\frac{f(x)}{g(x)} = l \qquad(\text{vale anche per }l= \pm \infty)
+$$
+
+- se $\lim_{x \to x_0}f(x) = \lim_{x \to x_0}g(x)= \infty$ e se $\lim_{x\to x_0}\frac{f'(x)}{g'(x)} = l$ allora:
+
+$$
+\lim_{x \to x_0}\frac{f(x)}{g(x)} = l \qquad(\text{vale anche per }l= \pm \infty)
+$$
