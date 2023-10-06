@@ -49,3 +49,6 @@ $$
 | $\sqrt{x}$ | $\frac{1}{n}x^{-\frac{n-1}{n}}$ |                 |
 | $x^\alpha$ | $\alpha x ^{\alpha - 1}$        |                 |
 
+### funzioni trigonometriche
+
+### funzioni esponenziali e logaritmiche
