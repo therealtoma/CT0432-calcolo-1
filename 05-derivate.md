@@ -1,5 +1,5 @@
 # Derivate
-
+## definizione di derivata
 ### rette nel piano
 $$
 y = mx+q \qquad \text{oppure} \qquad x=a \qquad \text{rette verticali}
@@ -37,3 +37,15 @@ se $\lim_{h \to 0} \frac{f(x_0+h)-f(h)}{h}$ **esiste finito** allora $f$ è deri
 $$
 f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h)-f(x_0)}{h}
 $$
+
+## derivate delle funzioni elementari
+### funzioni potenza
+| $f(x)$     | $f'(x)$                         | Dominio di $f'$ |
+|:----------:|:-------------------------------:|:---------------:|
+| $c$        | 0                               | $\mathbb{R}$    |
+| $x$        | 1                               | $\mathbb{R}$    |
+| $x^n$      | $nx^{n-1}$                      | $\mathbb{R}$    |
+| $x^{-n}$   | $-nx^{-n-1}$                    |                 |
+| $\sqrt{x}$ | $\frac{1}{n}x^{-\frac{n-1}{n}}$ |                 |
+| $x^\alpha$ | $\alpha x ^{\alpha - 1}$        |                 |
+
