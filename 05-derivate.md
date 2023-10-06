@@ -50,5 +50,11 @@ $$
 | $x^\alpha$ | $\alpha x ^{\alpha - 1}$        |                 |
 
 ### funzioni trigonometriche
+| $f(x)$   | $f'(x)$                           | Dominio di $f'$ |
+|:--------:|:---------------------------------:|:---------------:|
+| $sin(x)$ | $cos(x)$                          | $\mathbb{R}$    |
+| $cos(x)$ | $-sin(x)$                         | $\mathbb{R}$    |
+| tan(x)$  | $\frac{1}{cos^2(x)} = 1+tan^2(x)$ |                 |
+
 
 ### funzioni esponenziali e logaritmiche
