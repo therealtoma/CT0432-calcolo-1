@@ -75,3 +75,17 @@ date due funzioni $f$ e $g$ derivabili in $x_0$, allora:
 ## proprietà locali e teoremi sulle funzioni derivabili
 
 #### proprietà locali
+le proprietà locali riguradano l'andamento di una funzione in vicinanza (o in un intorno) di un punto $x_0$.
+Data la funzione $f: A \rarr \mathbb{R}$ e $x_0 \in A$, se esiste un intorno di $x_0$ si ha:
+- se $x < x_0 \implies f(x) \lt f(x_0)$ allora $f$ è **crescente** in $x_0$
+- se $x < x_0 \implies f(x) \ge f(x_0)$ allora $f$ è **decrescente** in $x_0$
+- se $f(x_0) \ge f(x)$ allora $x_0$ è **masimo relativo**
+- se $f(x_0) \le f(x)$ allora $x_0$ è **minimo relatico**
+
+#### massimi, minimi relativi e punti di flesso
+data $f$ derivabile in $x_0$:
+- se $x_0$ è un punto di massimo o minimo relativo allora $f'(x_0) = 0$
+- se $f'(x_0) = 0$ e $f$ non è costante attorno a $x_0$ allora $x_0$ è **punto stazionario**
+  - se $f(x)$ è crescente per $x \lt x_0$ e decrescente per $x \gt x_0$ allora $x_0$ è **massimo relativo**
+  - se $f(x)$ è decrescente per $x \lt x_0$ e crescente per $x \gt x_0$ allora $x_0$ è **minimo relativo**
+  - se $f(x)$ è crescente (o decrescente) sia per $x \lt x_0$ che per $x \gt x_0$ allora $x_0$ è **punto di flesso**
