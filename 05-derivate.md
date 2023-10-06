@@ -29,3 +29,11 @@ $$
 $$
 r(x) = \frac{f(x)- f(x_0)}{x- x_0}
 $$
+
+### derivata di un punto
+$h = x- x_0$
+se $\lim_{h \to 0} \frac{f(x_0+h)-f(h)}{h}$ **esiste finito** allora $f$ è derivabile in $x_0$ e la derivata è:
+
+$$
+f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h)-f(x_0)}{h}
+$$
