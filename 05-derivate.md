@@ -1,0 +1,26 @@
+# Derivate
+
+### rette nel piano
+$$
+y = mx+q \qquad \text{oppure} \qquad x=a \qquad \text{rette verticali}
+$$
+- $m$ corrisponde al **coefficente angolare** ($m = \frac{\Delta y}{\Delta x}$)
+- $m = tan(\alpha)$ dove $\alpha$ è l'angolo tra $y=0$ e la retta
+- $q$ è l'**intercetta** (intersezione con l'asse $x=0$)
+
+### rette per un punto
+dato il punto $P_0=(x_0, y_0) \in \mathbb{R}^2$ le rette passanti per $P_0$ hanno equazione:
+
+$$
+y = m(x-x_0)+q \qquad \text{oppure} \qquad x=a \qquad \text{rette verticali}
+$$
+
+### retta per due punti
+la retta passante per $P_0=(x_0, y_0)$ e per $P_1=(x_1, y_1)$ ha equazione:
+
+$$
+\begin{cases}
+    y = m(x-x_0)+ y_0
+    x = x_0
+\end{cases}
+$$
