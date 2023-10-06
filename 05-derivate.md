@@ -89,3 +89,34 @@ data $f$ derivabile in $x_0$:
   - se $f(x)$ è crescente per $x \lt x_0$ e decrescente per $x \gt x_0$ allora $x_0$ è **massimo relativo**
   - se $f(x)$ è decrescente per $x \lt x_0$ e crescente per $x \gt x_0$ allora $x_0$ è **minimo relativo**
   - se $f(x)$ è crescente (o decrescente) sia per $x \lt x_0$ che per $x \gt x_0$ allora $x_0$ è **punto di flesso**
+
+## asintoti verticali, orizzontali e obliqui
+#### asintoto verticale
+data la funzione $f : A \rarr \mathbb{R}$ e un punto $x_0$ di accumulazione per $A$, la retta $x=x_0$ è **asintoto verticale** per $f$ se:
+
+$$
+\lim_{x \to x_0^-}f(x) = \pm \infty \qquad \text{oppure} \qquad \lim_{x \to x_0^+}f(x) = \pm \infty
+$$
+
+#### asintoto orizzontale
+data la funzione $f : A \rarr \mathbb{R}$, la retta $y = q$ è **asintoto orizzontale** per $f$ se:
+
+$$
+\lim_{x \to +\infty}f(x) = q \qquad \text{oppure} \qquad \lim_{x\to -\infty}f(x) = q
+$$
+
+#### asintoto obliquo
+data la funzione $f : A \rarr \mathbb{R}$, la retta $y = mx + q$ è **asintoto obliquo** per $f$ se:
+
+$$
+\lim_{x \to +\infty}(f(x) - mx - q) = 0 \qquad \text{oppure} \qquad \lim_{x \to -\infty}(f(x) - mx - q) = 0
+$$
+
+**come calcolare asintoto obliquo**
+La retta $y = mx + q$ è asintoto obliquo per $f$ se e solo se:
+
+$$
+\lim_{x \to +\infty} \frac{f(x)}{x} = m \qquad \text{e} \qquad \lim_{x \to +\infty}(f(x) - mx) = q
+$$
+
+(la stessa procedura è valida per $x \to -\infty$)
