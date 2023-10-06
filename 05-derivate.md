@@ -58,3 +58,9 @@ $$
 
 
 ### funzioni esponenziali e logaritmiche
+| $f(x)$     | $f'(x)$             | Dominio di $f'$ |
+|:----------:|:-------------------:|:---------------:|
+| $e^x$      | $e^x$               | $\mathbb{R}$    |
+| $a^x$      | $log(a) \cdot a^x$  | $\mathbb{R}$    |
+| $log(x)$   | $\frac{1}{x}$       | $x > 0$         |
+| $log_a(x)$ | $\frac{1}{xlog(a)}$ | $x > 0$         |
