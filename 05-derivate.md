@@ -24,3 +24,8 @@ $$
     x = x_0
 \end{cases}
 $$
+
+## rapporto incrementale
+$$
+r(x) = \frac{f(x)- f(x_0)}{x- x_0}
+$$
