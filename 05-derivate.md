@@ -90,6 +90,9 @@ data $f$ derivabile in $x_0$:
   - se $f(x)$ è decrescente per $x \lt x_0$ e crescente per $x \gt x_0$ allora $x_0$ è **minimo relativo**
   - se $f(x)$ è crescente (o decrescente) sia per $x \lt x_0$ che per $x \gt x_0$ allora $x_0$ è **punto di flesso**
 
+#### teorema di Weierstrass
+sia $f: [a,b] \rarr \mathbb{R}$ allora esistono sicuramente i punti di **massimo** e **minimo**.
+
 ## asintoti verticali, orizzontali e obliqui
 #### asintoto verticale
 data la funzione $f : A \rarr \mathbb{R}$ e un punto $x_0$ di accumulazione per $A$, la retta $x=x_0$ è **asintoto verticale** per $f$ se:
