@@ -168,7 +168,7 @@ sia $\lim_{x \to +\infty}\frac{x+1}{x}=1$ i passaggi sono:
 - $f$ è **continua** se + continua in ogni punto del suo dominio
 
 ##### alcune proprietà
-date due funzioni continue $f,g : A \rarr \mathbb{R}$ allora
+date due funzioni continue $f,g : A \rightarrow \mathbb{R}$ allora
 - $h = f + g$ è continua
 - $h = f \cdot g$ è continua
 - $h = \frac{f}{g}$ è continua
@@ -178,21 +178,16 @@ date due funzioni continue $f,g : A \rarr \mathbb{R}$ allora
 
 ## teoremi fondamentali
 ### teorema degli zeri
-Siano $a < b$ e $f \ : \ [a;b] \rarr \mathbb{R}$ una funzione *continua* tale che $f(a) \cdot f(b) < 0$, cioè tale che $f(a)$ e $f(b)$ abbiano segno opposto. Allora esiste almeno un punto $c \in [a;b]$ tale che $f(c) = 0$
+Siano $a < b$ e $f \ : \ [a;b] \rightarrow \mathbb{R}$ una funzione *continua* tale che $f(a) \cdot f(b) < 0$, cioè tale che $f(a)$ e $f(b)$ abbiano segno opposto. Allora esiste almeno un punto $c \in [a;b]$ tale che $f(c) = 0$
 
 ### teorema dei valori intermedi
-Sia $f \ : \ [a;b] \rarr \mathbb{R}$ una funzione *continua*. Allora l'immagine $Imf$ è un **intervallo** e $f$ assume tutti i valori all'interno di quell'intervallo.
+Sia $f \ : \ [a;b] \rightarrow \mathbb{R}$ una funzione *continua*. Allora l'immagine $Imf$ è un **intervallo** e $f$ assume tutti i valori all'interno di quell'intervallo.
 
 ### teorema di Weierstrass
 Se $f$ è una funzione continua in un insieme $A$ chiuso e limitato, allora assume massimo e minimo in $A$, ovvero, esistono un punto $c$ e un punto $d$ di $A$ tali che:
-- $f(c)$ sia il massimo dell'immagine di $f$:
-  $$
-  f(c) = \max_{x \in A} f(x)
-  $$
-- $f(d)$ sia il minimo dell'immagine di $f$:
-  $$
-  f(d) = \min_{x \in A} f(x)
-  $$
+- $f(c)$ sia il massimo dell'immagine di $f$:  $f(c) = \max_{x \in A} f(x)$
+  
+- $f(d)$ sia il minimo dell'immagine di $f$:  $f(d) = \min_{x \in A} f(x)$
 
 ## limiti notevoli
 #### tipi di forme indeterminate
