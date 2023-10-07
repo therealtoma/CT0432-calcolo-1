@@ -13,3 +13,7 @@ se restringiamo il dominio della funzione $f(x)$ ad un intervallo $I$ allora pos
 - bisogna cercare all'interno dei **punti stazionari interni**, ovvero quei punti nei quali si annulla la derivata prima ($f'(x) = 0$)
 - bisogna cercare all'interno dei **punti singolari interni**, ovvero quei punti nei quali la derivata prima non esiste ($f'(x) = \nexists$)
 - negli eventuali **punti di frontiera**
+
+#### procedura
+- data la funzione $f(x)$ ne troviamo la derivata prima $f'(x)$
+- studiamo il segno della derivata prima $f'(x) \ge 0$: dove la funzione è $+$ è crescente, dove è $-$ è decrescente
