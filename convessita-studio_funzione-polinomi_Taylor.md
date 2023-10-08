@@ -39,7 +39,7 @@ il seguente teorema ci permette di capire se una funzionè concava o convessa:
 - se $f''(x_0) \lt 0, x_0 \in I$ allora $f$ è **localmente concava** in $I$
 - se $x_0$ è punto di flesso allora $f''(x_0) = 0$
 
-#### studio di funzione
+## studio di funzione
 Questo capitolo è stato inserito all'interno del file delle [procedure](./procedure.md)
 
 #### funzioni infenitesime
