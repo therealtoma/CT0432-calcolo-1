@@ -41,3 +41,11 @@ il seguente teorema ci permette di capire se una funzionè concava o convessa:
 
 #### studio di funzione
 Questo capitolo è stato inserito all'interno del file delle [procedure](./procedure.md)
+
+#### funzioni infenitesime
+- una funzione è **infinitesima** in $x_0$ se $\lim_{x \to x_0}f(x) = 0$
+- due funzioni $f$ e $g$ entrabme infinitesimi di $x_0$ si dicono **infinitesimi simultanei** in $x_0$
+- siano $f$ e $g$ due infinitesimi simultanei in $x_0$, si dice che $f$ e $g$ hanno lo stesso ordine di infinitesimo se esiste $l \gt 0$ tale che $\lim_{x \to x_0}|\frac{f(x)}{g(x)}| = l$
+  - se $l = 0$ allora si dice che $f$ ha ordine infinitesimo superiore a $g$
+  - se $l = +\infty$ allora si dice che $f$ ha ordine infinitesimo inferiore a $g$
+  - altrimento i due infinitesimi non sono confrontabili
