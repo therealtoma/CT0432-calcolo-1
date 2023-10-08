@@ -49,3 +49,10 @@ Questo capitolo è stato inserito all'interno del file delle [procedure](./proce
   - se $l = 0$ allora si dice che $f$ ha ordine infinitesimo superiore a $g$
   - se $l = +\infty$ allora si dice che $f$ ha ordine infinitesimo inferiore a $g$
   - altrimento i due infinitesimi non sono confrontabili
+
+## polinomio di Taylor
+data una funzione $f$ derivabile $n$ volte in $x_0$, si dice **polinomio di Taylor** di ordine $n$ nella funzione $f$ relativo al punto $x_0$ il seguente polinomio:
+
+$$
+T_{n,x_0}= \frac{f(x_0)}{0!}+\frac{f'(x_0)}{1!}(x-x_0)+ \dots + \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n
+$$
