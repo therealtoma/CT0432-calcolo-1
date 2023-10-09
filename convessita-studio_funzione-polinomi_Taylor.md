@@ -27,6 +27,14 @@ $$
 C^\infty(I)=\{ f : I \rightarrow \mathbb{R} \ | \ f \ \text{derivabile k volte} \}
 $$
 
+---
+quella sopra è la spiegazione tecnica, la quale risulta complicata da capire, dal [video](https://www.youtube.com/watch?v=tYNpQh4XW2A&list=PLA3C7C80841C5C018&index=11&ab_channel=EliaBombardelli) di Elia Bombardelli possiamo capire che:
+
+- **convessità**: una funzione è **convessa** (o con la *concavità verso l'alto*) se, presi due punti $P_1$ e $P_2$ del grafico, il segmento che li unisce sta sempre **sopra** (o al limite *coincide*) con il grafico della funzione
+- **concavità**: una funzione è **concava** (o con la *concavità verso l'alto*) se, presi due punti $P_1$ e $P_2$ del grafico, il segmento che li unisce sta sempre **sotto** (o al limite *coincide*) con il grafico della funzione
+
+(le **rette** sono un caso speciale, infatti sono sia concave che convesse)
+
 #### funzioni convesse e concave
 data $f : I \rightarrow \mathbb{R}$ diremo che $f$ è:
 - **convessa** in $I$ se per ogni punto $x_1, x_2$ la retta passante per $P_1=(x_1, f(x_1))$ e $P_2=(x_2, f(x_2))$ si trova sotto al grafico di $f$
