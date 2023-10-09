@@ -15,6 +15,10 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 
 **NOTA**: in molti casi non si riescono a svolgere esplicitamente i calcoli per tutti i punti, e si dovrà dedurre l'andamento del grafico solo attraverso i punti svolti
 
+#### 2. simmetrie e periodicità
+- simmetria **pari**: una funzione $f$ è **pari** se, per ogni x appartenente al dominiio, $f(-x) = f(x)$ ovvero la funzione è simmetrica rispetto all'asse $y$
+- simmetia **dispari**: una funzione $f$ è **dispari** se, per ogni x appartenente al dominio  $f(-x) = -f(-x)$ ovvero la funzione è simmetrica rispetto all'origine
+
 #### 8. convessità, concavità e flessi
 
 **convessità**
