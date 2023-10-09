@@ -15,6 +15,20 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 
 **NOTA**: in molti casi non si riescono a svolgere esplicitamente i calcoli per tutti i punti, e si dovrà dedurre l'andamento del grafico solo attraverso i punti svolti
 
+#### 8. convessità, concavità e flessi
+
+**convessità**
+- Le rette **tangenti** alla funzione si trovano sotto al grafico di essa
+- la derivata prima ($f'$) è **crescente**
+- $f'' \ge 0$
+
+**concavità**
+- Le rette **tangenti** alla funzione si trovano sopra al grafico di essa
+- la derivata prima ($f'$) è **decrescente**
+- $f'' \le 0$
+
+
+**punto di flesso**
 ## massimi e minimi
 ### massimi e minimi assoluti
 un punto $M$ è detto **massimo** se la funzione $f(x)$ è sempre **minore** di quel punto, inoltre esiste almeno un punto $x_0$ tale che $f(x_0) = M$.
@@ -29,7 +43,3 @@ se restringiamo il dominio della funzione $f(x)$ ad un intervallo $I$ allora pos
 - bisogna cercare all'interno dei **punti stazionari interni**, ovvero quei punti nei quali si annulla la derivata prima ($f'(x) = 0$)
 - bisogna cercare all'interno dei **punti singolari interni**, ovvero quei punti nei quali la derivata prima non esiste ($f'(x) = \nexists$)
 - negli eventuali **punti di frontiera**
-
-#### procedura
-- data la funzione $f(x)$ ne troviamo la derivata prima $f'(x)$
-- studiamo il segno della derivata prima $f'(x) \ge 0$: dove la funzione è $+$ è crescente, dove è $-$ è decrescente
