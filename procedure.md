@@ -19,6 +19,11 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 - simmetria **pari**: una funzione $f$ è **pari** se, per ogni x appartenente al dominiio, $f(-x) = f(x)$ ovvero la funzione è simmetrica rispetto all'asse $y$
 - simmetia **dispari**: una funzione $f$ è **dispari** se, per ogni x appartenente al dominio  $f(-x) = -f(-x)$ ovvero la funzione è simmetrica rispetto all'origine
 
+
+**N.B.** determinare la paritaà/disparità di una funzione risulta molto importante durante lo studio di una funzione:
+- se, per esempio, la funzione è *pari* e ha un *massimo* in  $x=3$ allora dovrà avere un *massimo* anche in $x=-3$
+- analogamente, se la funzione è *dispari* e ha un *massimo in* $x=5$ allora dovrà avere un minimo in $x=-5$
+- la parità/disparità della funzione va controllata solo se anche il dominio è simmetrico rispetto a $x=0$
 #### 8. convessità, concavità e flessi
 
 **convessità**
