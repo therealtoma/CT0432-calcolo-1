@@ -36,6 +36,8 @@ quella sopra è la spiegazione tecnica, la quale risulta complicata da capire, d
 (le **rette** sono un caso speciale, infatti sono sia concave che convesse)
 nelle [procedure](procedure.md) sono indicati i passaggi per trovare concavità,convessità e flessi
 
+- **punto di flesso**: $x_0$ è un punto di **flesso** per $f$ se $f$ è concava in un intorno sinistro di $x_0$ e convessa in un intorno destro di $x_0$ oppure viceversa, rappresenta quindi un punto in cui la concavità della funzione cambia
+---
 #### funzioni convesse e concave
 data $f : I \rightarrow \mathbb{R}$ diremo che $f$ è:
 - **convessa** in $I$ se per ogni punto $x_1, x_2$ la retta passante per $P_1=(x_1, f(x_1))$ e $P_2=(x_2, f(x_2))$ si trova sotto al grafico di $f$

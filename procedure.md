@@ -27,8 +27,11 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 - la derivata prima ($f'$) è **decrescente**
 - $f'' \le 0$
 
-
 **punto di flesso**
+è un punto nel quale $f'' = 0$ se esiste
+- non è detto che, se $f'' = 0$ il punto di flesso esiste (parabola)
+- non è detto che, se ho un cambio di concavità, il punto di flesso esista (punti di flesso a tangente verticale $\sqrt[3]{x}$)
+
 ## massimi e minimi
 ### massimi e minimi assoluti
 un punto $M$ è detto **massimo** se la funzione $f(x)$ è sempre **minore** di quel punto, inoltre esiste almeno un punto $x_0$ tale che $f(x_0) = M$.
