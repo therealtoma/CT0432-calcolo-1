@@ -34,6 +34,7 @@ quella sopra è la spiegazione tecnica, la quale risulta complicata da capire, d
 - **concavità**: una funzione è **concava** (o con la *concavità verso l'alto*) se, presi due punti $P_1$ e $P_2$ del grafico, il segmento che li unisce sta sempre **sotto** (o al limite *coincide*) con il grafico della funzione
 
 (le **rette** sono un caso speciale, infatti sono sia concave che convesse)
+nelle [procedure](procedure.md) sono indicati i passaggi per trovare concavità,convessità e flessi
 
 #### funzioni convesse e concave
 data $f : I \rightarrow \mathbb{R}$ diremo che $f$ è:
