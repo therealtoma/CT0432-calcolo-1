@@ -18,6 +18,7 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 #### 2. simmetrie e periodicità
 - simmetria **pari**: una funzione $f$ è **pari** se, per ogni x appartenente al dominiio, $f(-x) = f(x)$ ovvero la funzione è simmetrica rispetto all'asse $y$
 - simmetia **dispari**: una funzione $f$ è **dispari** se, per ogni x appartenente al dominio  $f(-x) = -f(-x)$ ovvero la funzione è simmetrica rispetto all'origine
+- **periodicità**: una funzione $f$ è **periodica** di periodo $T$ se vale che $f(x+T) = f(x)$
 
 
 **N.B.** determinare la paritaà/disparità di una funzione risulta molto importante durante lo studio di una funzione:
