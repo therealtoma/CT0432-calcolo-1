@@ -25,6 +25,11 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 - se, per esempio, la funzione è *pari* e ha un *massimo* in  $x=3$ allora dovrà avere un *massimo* anche in $x=-3$
 - analogamente, se la funzione è *dispari* e ha un *massimo in* $x=5$ allora dovrà avere un minimo in $x=-5$
 - la parità/disparità della funzione va controllata solo se anche il dominio è simmetrico rispetto a $x=0$
+
+#### 6. continuità e derivabilità
+- **continuità**: è sufficiente scrivere "la funzione è continua perche somma o prodotto di funzioni continue"
+- **derivabilità**: basandomi sulla funzione con la quale sto lavorando devo determinare se la funzione è derivabile (per esempio $f = |x|$ è derivabile in tutto $\mathbb{R}$ tranne $0$
+
 #### 8. convessità, concavità e flessi
 
 **convessità**
@@ -41,6 +46,7 @@ Ogni volta che viene risolto un punto è necessatio riportare l'informazione sul
 è un punto nel quale $f'' = 0$ se esiste
 - non è detto che, se $f'' = 0$ il punto di flesso esiste (parabola)
 - non è detto che, se ho un cambio di concavità, il punto di flesso esista (punti di flesso a tangente verticale $\sqrt[3]{x}$)
+
 
 ## massimi e minimi
 ### massimi e minimi assoluti
