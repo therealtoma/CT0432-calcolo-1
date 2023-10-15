@@ -62,3 +62,11 @@ se restringiamo il dominio della funzione $f(x)$ ad un intervallo $I$ allora pos
 - bisogna cercare all'interno dei **punti stazionari interni**, ovvero quei punti nei quali si annulla la derivata prima ($f'(x) = 0$)
 - bisogna cercare all'interno dei **punti singolari interni**, ovvero quei punti nei quali la derivata prima non esiste ($f'(x) = \nexists$)
 - negli eventuali **punti di frontiera**
+
+---
+#### retta tangente ad una funzione
+per trovare la formula della retta tangente ad una funzione $f$ in un punto $x_0$ devo applicare la formula:
+
+$$
+y=f'(x_0)(x-x_0)+f(x_0)
+$$
