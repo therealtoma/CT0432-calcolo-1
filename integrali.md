@@ -32,3 +32,17 @@ ecco una lista di **proprietà degli integrali**:
 -  $\int kf(x) dx = k \int f(x) dx$ 
 -  $\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx$
 -  $\left\lvert \int_a^b f(x) dx \right\rvert = \int_a^b \left\lvert f(x) \right\rvert dx$
+
+#### integrali di derivate di funzioni composte
+[video](https://youtu.be/zoc6GBaBdhM?list=PLD65828BD6F3E86AA)
+- $\int f(g(x)) \cdot g'(x) dx = F(g(x)) + c$
+
+| primitive elementari                                  | primitive elementari generalizzate                              |
+| :---------------------------------------------------: | :-------------------------------------------------------------: |
+| $\int cos(x) dx = sin(x)$                             | $\int f'(x) cos[f(x)] = sin[f(x)]$                              |
+| $\int sin(x) dx = -cos(x)$                            | $\int f'(x) sin[f(x)] = -cos[f(x)]$                             |
+| $\int e^x dx = e^x$                                   | $\int f'(x) e^{f(x)} dx = e^{f(x)}$                             |
+| $\int x^n dx = \frac{x^{n+1}}{n+1}$                   | $\int f'(x) [f(x)]^n dx = \frac{[f(x)]^{n+1}}{n+1}$             |
+| $\int \frac{1}{x} dx = ln \left\lvert x \right\rvert$ | $\int \frac{f'(x)}{f(x)} dx = ln \left\lvert f(x) \right\rvert$ |
+
+da questa formula sono in grado di calcolare i vari integrali
