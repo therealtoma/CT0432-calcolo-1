@@ -1,14 +1,5 @@
-# integrali
+# Integrali
+aggiornamento dell'argomento limiti. Le informazioni sono prese dai video di [Elia Bombardelli](https://www.youtube.com/playlist?list=PLD65828BD6F3E86AA)
 
-$F'(x) = f(x)$ dove $F$ è detta **primitiva**
-L'insieme delle primitive è detto **integrale (indefinito)** $\int f(x) dx = F(x) + c$
 
-#### integrazione per parti
-sappiamo che $D(fg) = f'g+fg'$ da cui otteniamo:
-
-$$
-\int D(f(x) g(x)) dx = \int f'(x) g(x) dx + \int f(x) g'(x) dx
-$$
-
-dove $D$ indica la derivata
-
+---
