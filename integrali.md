@@ -46,3 +46,13 @@ ecco una lista di **proprietà degli integrali**:
 | $\int \frac{1}{x} dx = ln \left\lvert x \right\rvert$ | $\int \frac{f'(x)}{f(x)} dx = ln \left\lvert f(x) \right\rvert$ |
 
 da questa formula sono in grado di calcolare i vari integrali
+
+#### integrazione per parti
+[video](https://youtu.be/2D2-g93Kljo?list=PLD65828BD6F3E86AA)
+
+l'integrazione per parti permette di effetuare l'integrazione nel seguente caso:
+
+$$
+\int f(x)g'(x) dx = f(x)g(x) - \int f'(x)g(x) dx
+$$
+
