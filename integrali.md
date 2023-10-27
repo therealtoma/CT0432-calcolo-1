@@ -10,7 +10,7 @@ per poter calcolare $\int_a^bf(x)dx$ devo:
 - una volta trovata, la calcolo negli estrmi della zona di integrazione (calcolo cioè $F(b)$ e $F(a)$)
 - sottraggo i due valori per calcolare $\int_a^bf(x) dx = F(b)-F(a)$.
 
-#### primitive elementari e proprietà degli integrali
+#### primitive elementari e proprietà degli integrali
 [video](https://youtu.be/4hfhVhnzuUw?list=PLD65828BD6F3E86AA)
 prima di individuare le primitive dell'integrale bisogna capire se la funzione è derivabile: è dimostrabile che se la funzione $f(x)$ è continua nell'intervallo di integrazione $[a; b]$ allora esiste almeno una primitiva.
 
