@@ -1,9 +1,4 @@
 # Limiti
-aggiornamento dell'argomento limiti. Le informazioni sono prese dai video di [Elia Bombardelli](https://www.youtube.com/playlist?list=PLD65828BD6F3E86AA)
-
-
----
-
 Data una funzione $f: A \subseteq \mathbb{R}$ e sia $x_0 \in \mathbb{R}$ un punto di accumulazione di $A$. Diremo che $l \in \mathbb{R}$ è il limit per $x$ tendente a $x_0$ se è possibile trovare un intorno $I_{x_0}$ tale che i valori della funzione calcolati nel'intorno $I_{x_0}$ cadono nell'intorno $U_l$
 
 $$
