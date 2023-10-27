@@ -26,3 +26,9 @@ ecco una lista delle **primitve elementari**:
 | $x^n$             | $\frac{x^{n+1}}{n+1}$           |
 | $\frac{1}{x}$     | $ln \left\lvert x \right\rvert$ |
 | $\frac{1}{1+x^2}$ | $arctan(x)$                     |
+
+ecco una lista di **proprietà degli integrali**:
+-  $\int[f(x) \pm g(x)] dx = \int f(x) dx \pm \int g(x)dx$
+-  $\int kf(x) dx = k \int f(x) dx$ 
+-  $\int_a^b f(x) dx = \int_a^c f(x) dx + \int_c^b f(x) dx$
+-  $\left\lvert \int_a^b f(x) dx \right\rvert = \int_a^b \left\lvert f(x) \right\rvert dx$
