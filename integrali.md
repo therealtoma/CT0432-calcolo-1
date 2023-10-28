@@ -56,3 +56,8 @@ $$
 \int f(x)g'(x) dx = f(x)g(x) - \int f'(x)g(x) dx
 $$
 
+#### integrali indefiniti
+nel caso in cui si ha un integrale dove uno dei due estremi corrisoponde a $\pm \infty$ o un valore per il quale la funzione non è definita si deve:
+- fare il limite per $t \to k$ dell'integrale
+- sostituire al valore dove la funzione non è definita il valore di $k$
+- calcolare l'integrale
